@@ -779,12 +779,11 @@ table th, table td {
 	overflow: hidden;
 }
 .achieve-item{
-	width: 80%
+	padding-left: 2em;
 }
 .achieve-time{
 	color: #71777c;
 	padding: 0 15px 0 0;
-	width: 20%
 }
 .pro-list{
 	width: 50%;

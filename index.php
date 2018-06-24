@@ -19,7 +19,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 				<a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->sticky();$this->title() ?></a>
 			</h2>
             <div class="post-content" itemprop="articleBody">
-    			<?php $this->excerpt(400,'...'); ?>
+    			<?php /* $this->excerpt(400,'...');*/ ?>
+    			<?php $this->content(); ?>
             </div>
             <ul class="post-meta">
 				<!-- <li itemprop="author" itemscope itemtype="http://schema.org/Person"><?php _e('作者: '); ?><a itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a></li> -->

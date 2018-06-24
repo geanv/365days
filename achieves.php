@@ -24,7 +24,7 @@ $this->need('header.php'); ?>
                 }   
                 if ($mon != $mon_tmp) {   
                     $mon = $mon_tmp;   
-                    $output .= '<p>'. $mon .' 月</p><ul class="al_post_list">'; //输出月份   
+                    $output .= '<p>'. $mon .' 月</p><ul class="achieve-item">'; //输出月份   
                 }   
                 $output .= '<li>'.date('d 日：',$archives->created).'<a href="'.$archives->permalink .'">'. $archives->title .'</a> </li>'; //输出文章日期和标题
             endwhile;   
